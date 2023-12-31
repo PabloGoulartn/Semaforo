@@ -1,0 +1,85 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.traffic-light-container{
+    text-align: center;
+    max-width: 450px;
+    width: 100%;
+}
+
+.traffic-light-image{
+    margin-bottom: 30px;
+}
+
+.button-section{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.btn{
+    border-radius: 12px;
+    height: 40px;
+    width: 100px;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.226);
+}
+
+.btn-red{
+    background: linear-gradient(to right, #c74343, #ef7979);
+}
+
+.btn-yellow{
+    background: linear-gradient(to right, #c5c743, #edef79);
+}
+
+.btn-green{
+    background: linear-gradient(to right, #43c770, #96ef79);
+}
+
+.btn-automatic{
+    background: linear-gradient(to right, #5743c7, #7981ef);
+}
+
+.btn-red:hover{
+    background: linear-gradient(to right, #ca3636, #ee6161);
+}
+
+.btn-red:active{
+    background: linear-gradient(to right, #ca2121, #ec4040);
+}
+
+.btn-yellow:hover{
+    background: linear-gradient(to right, #c8ca32, #eff15d);
+}
+
+.btn-yellow:active{
+    background: linear-gradient(to right, #cccf12, #f2f535);
+}
+
+.btn-green:hover{
+    background: linear-gradient(to right, #31c963, #86f361);
+}
+
+.btn-green:active{
+    background: linear-gradient(to right, #1ece59, #6ff144);
+}
+
+.btn-automatic:hover{
+    background: linear-gradient(to right, #4831c9, #626cf7);
+}
+
+.btn-automatic:active{
+    background: linear-gradient(to right, #391fcc, #4753f5);
+}
