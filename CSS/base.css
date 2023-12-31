@@ -30,7 +30,8 @@ body{
 .btn{
     border-radius: 12px;
     height: 40px;
-    width: 100px;
+    max-width: 100px;
+    width: 100%;
     color: white;
     cursor: pointer;
     box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.226);
@@ -82,4 +83,23 @@ body{
 
 .btn-automatic:active{
     background: linear-gradient(to right, #391fcc, #4753f5);
+}
+
+@media (max-width: 480px) {
+    .traffic-light-image{
+        height: 400px;
+        margin-bottom: 10px;
+    }
+    .button-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .btn{
+        max-width: 200px;
+        margin-bottom: 20px;
+    }
 }
